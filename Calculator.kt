@@ -10,6 +10,11 @@ class Calculator {
         println(a-b)
     }
 
+//third function added by Neeraj
+    fun mul(a:Int, b:Int){
+        println(a*b)
+    }
+
 }
 
 fun main()
@@ -23,4 +28,5 @@ fun main()
     var ob1 = Calculator()
     ob1.add(n1,n2)
     ob1.sub(n1,n2)
+    ob1.mul(n1,n2)
 }
