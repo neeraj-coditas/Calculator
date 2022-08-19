@@ -15,6 +15,13 @@ class Calculator {
         println(a*b)
     }
 
+// fourth fun added by pritesh
+    fun div(a:Int, b:Int){
+        var f1 = a.toFloat()
+        var f2 = b.toFloat()
+        println(f1/f2)
+    }
+
 }
 
 fun main()
@@ -23,10 +30,9 @@ fun main()
     var n1 = sc.nextInt()
     var n2 = sc.nextInt()
 
-    var op = sc.next()
-
     var ob1 = Calculator()
     ob1.add(n1,n2)
     ob1.sub(n1,n2)
     ob1.mul(n1,n2)
+    ob1.div(n1,n2)
 }
