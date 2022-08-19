@@ -5,6 +5,10 @@ class Calculator {
     fun add(a:Int,b:Int){
         println(a+b)
     }
+// here pritesh will add sub fun
+    fun sub(a:Int,b:Int){
+        println(a-b)
+    }
 
 }
 
@@ -18,4 +22,5 @@ fun main()
 
     var ob1 = Calculator()
     ob1.add(n1,n2)
+    ob1.sub(n1,n2)
 }
